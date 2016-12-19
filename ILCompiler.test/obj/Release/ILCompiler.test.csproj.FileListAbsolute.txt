@@ -1,0 +1,9 @@
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler.test\bin\Release\ILCompiler.test.dll
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler.test\bin\Release\ILCompiler.test.pdb
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler.test\bin\Release\ILCompiler.exe
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler.test\bin\Release\ICSharpCode.AvalonEdit.dll
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler.test\bin\Release\ILCompiler.pdb
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler.test\bin\Release\ICSharpCode.AvalonEdit.xml
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler.test\obj\Release\ILCompiler.test.csprojResolveAssemblyReference.cache
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler.test\obj\Release\ILCompiler.test.dll
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler.test\obj\Release\ILCompiler.test.pdb

@@ -1,0 +1,16 @@
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler\bin\Release\ILCompiler.exe.config
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler\bin\Release\ILCompiler.exe
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler\bin\Release\ILCompiler.pdb
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler\bin\Release\ICSharpCode.AvalonEdit.dll
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler\bin\Release\ICSharpCode.AvalonEdit.xml
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler\obj\Release\ILCompiler.csprojResolveAssemblyReference.cache
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler\obj\Release\MainWindow.g.cs
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler\obj\Release\App.g.cs
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler\obj\Release\ILCompiler_MarkupCompile.cache
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler\obj\Release\ILCompiler_MarkupCompile.lref
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler\obj\Release\MainWindow.baml
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler\obj\Release\ILCompiler.g.resources
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler\obj\Release\ILCompiler.Properties.Resources.resources
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler\obj\Release\ILCompiler.csproj.GenerateResource.Cache
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler\obj\Release\ILCompiler.exe
+D:\Dropbox\mgr\Workspaces\VS2015\ILCompiler\ILCompiler\obj\Release\ILCompiler.pdb

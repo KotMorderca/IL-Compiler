@@ -1,0 +1,85 @@
+﻿<?xml version="1.0"?>
+<SyntaxDefinition name="ILHighlighting" xmlns="http://icsharpcode.net/sharpdevelop/syntaxdefinition/2008">
+  <Color name="Comment" foreground="Green" />
+	
+  <RuleSet>
+    <Span color="Comment" begin="//" />
+    <Span color="Comment" multiline="true" begin="\(\*" end="\*\)" />
+    <Span color="Comment" multiline="true" begin="/\*" end="\*/" />
+
+    <!-- Mnemoniki -->
+    <Keywords fontWeight="bold" foreground="Blue">
+      <Word>LD</Word>
+      <Word>LDN</Word>
+      <Word>NOT</Word>
+      <Word>AND</Word>
+      <Word>ANDN</Word>
+      <Word>OR</Word>
+      <Word>ORN</Word>
+      <Word>XOR</Word>
+      <Word>XORN</Word>
+      <Word>ST</Word>
+      <Word>STN</Word>
+      <Word>S</Word>
+      <Word>R</Word>
+      <Word>JMP</Word>
+      <Word>JMPC</Word>
+      <Word>JMPCN</Word>
+      <Word>JOV</Word>
+      <Word>R_TRIG</Word>
+      <Word>F_TRIG</Word>
+      <Word>NOP</Word>
+      <Word>SL</Word>
+      <Word>SR</Word>
+      <Word>RL</Word>
+      <Word>RR</Word>
+      <Word>ITR</Word>
+      <Word>ROUND</Word>
+      <Word>ADD</Word>
+      <Word>SUB</Word>
+      <Word>MUL</Word>
+      <Word>DIV</Word>
+      <Word>NEG</Word>
+      <Word>EQ</Word>
+      <Word>GT</Word>
+      <Word>GE</Word>
+      <Word>NE</Word>
+      <Word>LE</Word>
+      <Word>LT</Word>
+      <Word>MOD</Word>
+      <Word>CU</Word>
+      <Word>CD</Word>
+      <Word>SC</Word>
+      <Word>RCT</Word>
+      <Word>TON</Word>
+      <Word>TP</Word>
+      <Word>TOF</Word>
+    </Keywords>
+
+    <!-- Etykiety -->
+    <Rule foreground="Blue" background="Yellow">
+      \b.+:
+    </Rule>
+		
+    <!-- Operandy -->
+    <Rule foreground="Red" background="Black">
+      \bAQ[0-7]\b                                                              # Analog Outputs
+      | \bAI([0-9]|[1][0-5])\b                                                 # Analog Inputs
+      | \bDQW(0\.([0-9]|[0-2][0-9]|3[0-1])|[0-3])\b                            # Digital Outputs
+      | \bDIW(0\.([0-9]|[0-2][0-9]|3[0-1])|[0-3])\b                            # Digital Inputs
+      | \bT([0-9]|1[0-5])\b                                                    # Timers
+      | \bC([0-9]|1[0-5])\b                                                    # Counters
+      | \bMW([0-1]\.([0-9]|[0-2][0-9]|3[0-1])|([0-9]|[0-5][0-9]|6[0-3]))\b     # Markers
+      | \bOV\b                                                                 # OV flag
+    </Rule>
+
+    <!-- Liczby -->
+    <Rule foreground="Red" background="Yellow">
+      \b2\#[0-1_]+\b                                                          # radix2 number
+      | \b8\#[0-7_]+                                                          # radix8 number
+      | ((?&lt;![0-9])[+\-])?\b(?&lt;!\#)[0-9]([0-9]|_[0-9])*(?!\#)\b         # radix10 number
+      | \b16\#[0-9a-fA-F_]+                                                   # radix16 number
+      | \b(FALSE|false|False|TRUE|true|True)\b                                # Boolean
+    </Rule>
+  </RuleSet>
+</SyntaxDefinition>
